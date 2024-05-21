@@ -172,3 +172,20 @@ table(generos)
 
 # Calculando a avaliação média
 tapply(avaliacoes, generos, mean)
+
+#################### ATIVIDADE AVALIATIVA #################### 
+vendas <- c(5, 7, 3, 8, 9, 4, 6)
+vendas2 <- c(10, 11)
+vendas <- c(vendas, vendas2)
+print(vendas)
+
+vendas <- vendas[vendas != 3]
+print(vendas)
+
+vendas[3] <- 12
+print(vendas)
+
+sum(vendas)
+mean(vendas)
+
+getwd() # saber o diretório onde salvou o arquivo
